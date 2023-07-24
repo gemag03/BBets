@@ -120,9 +120,34 @@ Two standard deviations above the mean and to two standard deviation below the m
 
 
 
+```{r}
+b_low <- array(100)
+for (i in 1:100) {
+  b_low[i] <- BrLw(odds=4.346)
+}
+
+```
 
 
 
+
+```{r}
+sorted_b_low <- sort(b_low)
+plot(sorted_b_low, type = "l", xlab = "Index", ylab = "Value",
+     main = "Line Plot of B_low Numerical Vector")
+```
+
+
+
+
+
+```{r}
+favstats(sorted_b_low)
+```
+
+
+
+The mean is 0.3.It is less than 1$. Our 95% confidence interval is two standard deviations above the mean to two standard deviations below the mean.
 
 
 
