@@ -189,3 +189,9 @@ We put 28 students because 29 was to much and we cant put decimals since student
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+
+
+From the number of students or the number or the number of the odds, it is what could change his payout. Each time we put a number higher or lower it gave us a different outcome of the means. Which would then make our 95% confidence interval vary. He need to have a class between 28 and 29 but we cant put decimals since each person is a whole number. I feel a good number between those should give a balance at zero profit.
+
+
+
