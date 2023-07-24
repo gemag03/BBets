@@ -158,9 +158,31 @@ The mean is 0.3.It is less than 1$. Our 95% confidence interval is two standard 
 
 
 
+```{r}
+fair_low <- array(40)
+for (i in 1:40) {
+  fair_low[i] <- BrLw(numClass = 28)
+}
+
+```
 
 
 
+```{r}
+sorted_fair_low <- sort(fair_low)
+plot(sorted_fair_low, type = "l", xlab = "Index", ylab = "Value",
+     main = "Line Plot of fair_low Numerical Vector")
+```
+
+
+
+```{r}
+favstats(sorted_fair_low)
+```
+
+
+
+We put 28 students because 29 was to much and we cant put decimals since students can't be cut in halves. To get close to zero our attempt gave us a mean of 19. 
 
 
 # Discussion and Conclusion
